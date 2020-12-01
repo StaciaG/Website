@@ -2,13 +2,17 @@
 
 * {
   font-size: 100%;
+  margin: 10;
+  line-height: 1;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 
 body {
-  background-color: #333333;
-  color: White;
+  background-color: black;
   font-family: 'Philosopher', sans-serif;
   font-size: 18px;
+  text-align: center;
 }
 
 h1, h2, h3 {
@@ -17,8 +21,7 @@ h1, h2, h3 {
 }
 h1 {
   font-size: 75px;
-  color: IndianRed;
-  text-align: left;
+  color: #7E10AA;
 }
 
 header h1 {
@@ -28,26 +31,26 @@ header h1 {
 
 h2 {
   font-size: 35px;
-  color: IndianRed;
+  color: #1087A8;
 }
 
 p {
-  color: White;
   line-height: 2;
   font-family: Arial, sans-serif;
+  color: grey;
 }
 
-ol {
+ul, ol {
   line-height: 2;
   font-family: Arial, sans-serif;
 }
 
 section {
-  color: White;
+  color: grey;
 }
 
 a {
-  color: IndianRed;
+  color: #10A87D;
   text-decoration: none;
 }
 
@@ -57,4 +60,13 @@ a:hover {
 
 footer {
   color: IndianRed;
+}
+
+/* img {
+  height: 40%;
+  width: 50%;
+} */
+
+.title {
+  font-size: 100px;
 }
