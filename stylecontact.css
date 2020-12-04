@@ -1,4 +1,4 @@
-/* Index Styles */
+/* Contact Styles */
 
 * {
   font-size: 100%;
@@ -33,7 +33,7 @@ header h1 {
 }
 
 h2 {
-  font-size: 45px;
+  font-size: 65px;
   color: #1087A8;
 }
 
@@ -126,4 +126,30 @@ li img {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+#menu-outer {
+	height: 84px;
+	background: url(images/bar-bg.jpg) repeat-x;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
+
+.shoplinks {
+  margin-top: 40px;
+}
+
+.gilakasla {
+  margin-top: 200px;
 }
