@@ -2,6 +2,7 @@
 
 * {
   font-size: 100%;
+  margin: 10;
   line-height: 1;
   box-sizing: border-box;
 }
@@ -31,7 +32,7 @@ header h1 {
 }
 
 h2 {
-  font-size: 45px;
+  font-size: 65px;
   color: #1087A8;
 }
 
@@ -104,16 +105,6 @@ li img {
   color: white;
 }
 
-.row {
-  height: 30%;
-  width: 20%;
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
 ul {
   text-align: center;
   list-style: none;
@@ -121,4 +112,18 @@ ul {
 
 li {
   margin-bottom: 10px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
