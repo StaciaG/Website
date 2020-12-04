@@ -13,7 +13,7 @@ body {
   font-family: 'Philosopher', sans-serif;
   font-size: 22px;
   text-align: center;
-  margin: 50px;
+  /* margin: 50px; */
 }
 
 h1, h2, h3 {
@@ -35,12 +35,16 @@ header h1 {
 h2 {
   font-size: 65px;
   color: #1087A8;
+  margin-bottom: 30px;
 }
 
 p {
   line-height: 2;
   font-family: Arial, sans-serif;
   color: grey;
+  margin-bottom: 60px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 ul, ol {
@@ -115,4 +119,39 @@ img {
 
 footer {
   text-align: center;
+}
+
+.container1 {
+  background-color: black;
+  border: 1px solid grey;
+  margin: 50px;
+}
+.wolf {
+  margin-bottom: 60px;
+}
+
+#menu-outer {
+	height: 84px;
+	background: url(images/bar-bg.jpg) repeat-x;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	}
+	ul#horizontal-list li {
+		display: inline;
+	}
+
+.shoplinks {
+  margin-top: 40px;
+}
+
+.gilakasla {
+  margin-top: 200px;
 }
